@@ -1,4 +1,9 @@
-#Homework Policy#
+---
+title: Homework
+layout: default
+---
+
+## Homework Policy
 
 * All assignments are due at 8am before class begins
 * No assignments should include copy and pasted code

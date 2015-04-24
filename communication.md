@@ -1,4 +1,9 @@
-#Communication Policy#
+---
+title: Communication
+layout: default
+---
+
+## Communication Policy
 
 * More is better than less
 * A peer is better than a google search
