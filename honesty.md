@@ -17,5 +17,5 @@ layout: default
 
 I cannot stress enough the importance of honesty and open communication.
 
-For the sake of Clarity, we'll define Honesty as:
+For the sake of Clarity, we'll define Honesty as:  
 >Honesty - sincere, blameless, fairly earned, simple, unpretentious, and free of deceit.
