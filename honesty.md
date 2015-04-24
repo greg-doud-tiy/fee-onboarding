@@ -3,7 +3,7 @@ title: Honesty
 layout: default
 ---
 
->"Honesty is more than not lying. It is truth telling, truth speaking, truth living, and truth loving."
+>"Honesty is more than not lying. It is truth telling, truth speaking, truth living, and truth loving."  
 >-James E. Faust
 
 ## Honesty Policy
@@ -17,5 +17,6 @@ layout: default
 
 I cannot stress enough the importance of honesty and open communication.
 
-For the sake of Clarity, we'll define Honesty as:  
+For the sake of Clarity, we'll define Honesty as:
+
 >Honesty - sincere, blameless, fairly earned, simple, unpretentious, and free of deceit.
