@@ -33,10 +33,10 @@ The following are the learning objectives for this prework, all of which are imp
 
 ### OSX Yosemite
 
-You'll need to install OS X Yosemite if you haven't already.
+You'll need to install OS X Yosemite if your Mac didn't have it pre-installed or you haven't upgraded already.
 
-1.	You'll need to sign in to your Mac's 'App Store' with your [Apple ID](https://appleid.apple.com/).
-2.	Download the Yosemite upgrade from the Apple Store: [download here](https://itunes.apple.com/us/app/os-x-yosemite/id915041082?mt=12).
+1.	Download the Yosemite upgrade from the Apple Store: [download here](https://itunes.apple.com/us/app/os-x-yosemite/id915041082?mt=12).
+2.	You'll need to sign in to your Mac's 'App Store' with your [Apple ID](https://appleid.apple.com/).
 3.	Double-click "Install OS X Yosemite" to begin installation.  
 *WARNING*: The OS X upgrade can take a bit of time to complete and will require a restart. Plan on doing this in the evening or over a lunch break.
 
