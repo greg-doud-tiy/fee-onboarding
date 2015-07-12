@@ -11,7 +11,7 @@ Diversity is one of our huge strengths, but it can also lead to communication is
 
 This isn't an exhaustive list of things that you can't do. Rather, take it in the spirit in which it's intended - a guide to make it easier to enrich all of us, the technical communities in which we participate.
 
-This code of conduct applies to all communication: this includes in class, HipChat, email, and other forums such as Skype, Google+ Hangouts, etc.
+This code of conduct applies to all communication: this includes in class, Slack, email, and other forums such as Skype, Google+ Hangouts, etc.
 
 If you believe someone is violating the code of conduct, we ask that you report it by talking to your teacher. If you do not feel comfortable talking to your teacher, speak with any Iron Yard teacher or campus director.
 
