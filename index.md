@@ -26,7 +26,7 @@ The following are the learning objectives for this prework, all of which are imp
 
 1. Read [Fixed vs. Growth: The Two Basic Mindsets That Shape Our Lives](http://www.brainpickings.org/2014/01/29/carol-dweck-mindset/)
 2. Read [What is Code](http://www.bloomberg.com/graphics/2015-paul-ford-what-is-code/)
-3. Compose an email to [me](jason.perry@theironyard.com) answering the following questions:
+3. Compose an email to [me](gavin@theironyard.com) answering the following questions:
   - What aspects of the Growth and Fixed mindset can you identify in your personal history? In what areas do you feel Fixed? Where do you see the most Growth?
   - What difficulties do you predict that you will encounter during our course? How have you reacted to similar situations in the past? How do you plan on reacting to these situations during the class?
   - What excited and surprised you in What is Code? Was the description of programming (both the activity and the culture) what you expected? How did it differ?
@@ -93,7 +93,7 @@ GitHub is a web-based hosting and communication service for software development
 
 1. Sign up for a [Github](https://github.com/) account.
 2. Make sure to add a profile picture and your full name, since this will help me learn your name. The _username_ you choose does not need to reflect your real name; if you have a handle you already use (for Twitter, IM, IRC, etc.) feel free to use that.
-3. Email [me](mailto:jason.perry@theironyard.com) the username you choose so that I can get you added to the group we'll be using for class.
+3. Email [me](mailto:gavin@theironyard.com) the username you choose so that I can get you added to the group we'll be using for class.
 4. Complete [try.github.io](https://try.github.io/).
 
 ### Supplemental

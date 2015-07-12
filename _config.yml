@@ -1,10 +1,10 @@
-title: Rails Engineering Onboarding | The Iron Yard - Tampa & St. Petersburg, FL
-project_name: Rails Engineering
+title: Backend Engineering Onboarding | The Iron Yard - Tampa & St. Petersburg, FL
+project_name: Backend Engineering
 description: >
   The Iron Yard - Tampa & St. Petersburg, FL
-repository_url: https://github.com/tiy-tpa-rails-q2-2015/onboarding
-repository_shorthand: tiy-tpa-rails-q2-2015/onboarding
+repository_url: https://github.com/tiy-tpa-backend-q3-2015/onboarding
+repository_shorthand: tiy-tpa-backend-q3-2015/onboarding
 baseurl: /onboarding
-author_name: Jason L Perry
-author_url: https://github.com/ambethia
+author_name: Gavin Stark
+author_url: https://github.com/gstark
 markdown: kramdown
