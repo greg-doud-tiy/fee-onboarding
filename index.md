@@ -11,7 +11,7 @@ Remember, we are all in this together. We will have individual assignments and g
 
 Thank you for your commitment and hard work. It will be rewarded.
 
-There are quite a few tasks and topics that are necessary to take care of before we can actually start learning how to be Ruby and Rails developers. Rather than using class time to get through these, I expect that you can accomplish and learn these things without assistance so that we can spend class time only on those things that are difficult to learn on your own. If you have any questions or confusion about these tasks, please email me so I can help you work through them. 
+There are quite a few tasks and topics that are necessary to take care of before we can actually start learning how to be Ruby and Rails developers. Rather than using class time to get through these, I expect that you can accomplish and learn these things without assistance so that we can spend class time only on those things that are difficult to learn on your own. If you have any questions or confusion about these tasks, please email me so I can help you work through them.
 
 ## Objectives
 
@@ -26,7 +26,7 @@ The following are the learning objectives for this prework, all of which are imp
 
 1. Read [Fixed vs. Growth: The Two Basic Mindsets That Shape Our Lives](http://www.brainpickings.org/2014/01/29/carol-dweck-mindset/)
 2. Read [What is Code](http://www.bloomberg.com/graphics/2015-paul-ford-what-is-code/)
-3. Compose an email to [me](gavin@theironyard.com) answering the following questions:
+3. Compose an email to [me]({{ site.author_email }}) answering the following questions:
   - What aspects of the Growth and Fixed mindset can you identify in your personal history? In what areas do you feel Fixed? Where do you see the most Growth?
   - What difficulties do you predict that you will encounter during our course? How have you reacted to similar situations in the past? How do you plan on reacting to these situations during the class?
   - What excited and surprised you in What is Code? Was the description of programming (both the activity and the culture) what you expected? How did it differ?
@@ -39,7 +39,7 @@ You'll need to install OS X Yosemite if your Mac didn't have it pre-installed or
 
 1.	Download the Yosemite upgrade from the Apple Store: [download here](https://itunes.apple.com/us/app/os-x-yosemite/id915041082?mt=12).
 2.	You'll need to sign in to your Mac's 'App Store' with your [Apple ID](https://appleid.apple.com/).
-3.	Double-click "Install OS X Yosemite" to begin installation.  
+3.	Double-click "Install OS X Yosemite" to begin installation.
 *WARNING*: The OS X upgrade can take a bit of time to complete and will require a restart. Plan on doing this in the evening or over a lunch break.
 
 ### Additional Software
@@ -55,7 +55,7 @@ If you haven't completed it already, [Codecademy](http://www.codecademy.com) has
 
 ### Supplemental
 
-HTML/CSS will be covered in the course, but not to the same depth as Ruby and Rails, so it would benefit you extremely to be familiar with building websites. 
+HTML/CSS will be covered in the course, but not to the same depth as Ruby and Rails, so it would benefit you extremely to be familiar with building websites.
 
 [http://www.codecademy.com/en/tracks/web](http://www.codecademy.com/en/tracks/web)
 
@@ -93,7 +93,7 @@ GitHub is a web-based hosting and communication service for software development
 
 1. Sign up for a [Github](https://github.com/) account.
 2. Make sure to add a profile picture and your full name, since this will help me learn your name. The _username_ you choose does not need to reflect your real name; if you have a handle you already use (for Twitter, IM, IRC, etc.) feel free to use that.
-3. Email [me](mailto:gavin@theironyard.com) the username you choose so that I can get you added to the group we'll be using for class.
+3. Email [me](mailto:{{ site.author_email }}) the username you choose so that I can get you added to the group we'll be using for class.
 4. Complete [try.github.io](https://try.github.io/).
 
 ### Supplemental

@@ -1,10 +1,11 @@
-title: Backend Engineering Onboarding | The Iron Yard - Tampa & St. Petersburg, FL
+title: Backend Engineering Onboarding | The Iron Yard - Washington DC
 project_name: Backend Engineering
 description: >
-  The Iron Yard - Tampa & St. Petersburg, FL
-repository_url: https://github.com/tiy-tpa-backend-q3-2015/onboarding
-repository_shorthand: tiy-tpa-backend-q3-2015/onboarding
+  The Iron Yard - The Iron Yard - Washington DC
+repository_url: https://github.com/TIY-DC-ROR-2016-FEB/onboarding
+repository_shorthand: TIY-DC-ROR-2016-FEB/onboarding
 baseurl: /onboarding
-author_name: Gavin Stark
-author_url: https://github.com/gstark
+author_name: Russell Osborne
+author_email: russell@theironyard.com
+author_url: https://github.com/rposborne
 markdown: kramdown

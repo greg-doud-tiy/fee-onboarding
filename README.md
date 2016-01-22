@@ -1,9 +1,9 @@
 # Student Onboarding Guide
 
-I hope you all are as excited as I am about getting this class started. It is in the best interest of everyone to make sure you as prepared as possible for the coming twelve weeks. 
+I hope you all are as excited as I am about getting this class started. It is in the best interest of everyone to make sure you as prepared as possible for the coming twelve weeks.
 
-Please read this onboarding guide by visiting https://github.com/tiy-tpa-backend-q3-2015/onboarding and following the instructions.
+Please read this onboarding guide by visiting {{ site.repository_url }} and following the instructions.
 
 See you soon!
 
-Gavin
+{{ site.author_name.split[0] }}
