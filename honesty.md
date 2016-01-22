@@ -3,7 +3,7 @@ title: Honesty
 layout: default
 ---
 
->"Honesty is more than not lying. It is truth telling, truth speaking, truth living, and truth loving."  
+>"Honesty is more than not lying. It is truth telling, truth speaking, truth living, and truth loving."
 >-James E. Faust
 
 ## Honesty Policy

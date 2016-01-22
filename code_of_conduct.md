@@ -29,7 +29,7 @@ If you believe someone is violating the code of conduct, we ask that you report 
     *   Personal insults, especially those using racist or sexist terms.
     *   Unwelcome sexual attention.
     *   Advocating for, or encouraging, any of the above behavior.
-    *   Repeated harassment of others. In general, if someone asks you to stop, then stop.
+    *   Repeated harassment of others. In general, if someone asks you to stop, then **stop**.
 
 *   **When we disagree, we try to understand why.** Disagreements, both social and technical, happen all the time and The Iron Yard is no exception. It is important that we resolve disagreements and differing views constructively. Remember that we're different. The strength of The Iron Yard comes from its varied members, people from a wide range of backgrounds. Different people have different perspectives on issues. Being unable to understand why someone holds a viewpoint doesn't mean that they're wrong. Don't forget that it is human to err and blaming each other doesn't get us anywhere, rather offer to help resolving issues and to help learn from mistakes.
 
