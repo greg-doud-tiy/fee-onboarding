@@ -91,7 +91,7 @@ If you want to spend some more time with git, [Git Immersion](http://gitimmersio
 
 GitHub is a web-based hosting and communication service for software development projects that uses the Git revision control system.
 
-1. Sign up for a [Github](https://github.com/) account.
+1. Sign up for a [Github](https://github.com/) account, if you don't have one already.
 2. Make sure to add a profile picture and your full name, since this will help me learn your name. The _username_ you choose does not need to reflect your real name; if you have a handle you already use (for Twitter, IM, IRC, etc.) feel free to use that.
 3. Email [me](mailto:{{ site.author_email }}) the username you choose so that I can get you added to the group we'll be using for class.
 4. Complete [try.github.io](https://try.github.io/).
@@ -105,5 +105,7 @@ Check out the [GitHub Guides](https://guides.github.com/) if you want to learn m
 Believe it or not, *a lot* of time in the first weeks of programming is spent fixing simple typing errors. It would not be ridiculous to suggest that many of you will spend 12-24 hours (or more) fixing typing errors during class.
 
 ### Supplemental
+
+Check out the [GitHub Guides](https://guides.github.com/) if you want to learn more about using GitHub prior to class.
 
 If you don't know how to touch type (i.e., type without looking at the keyboard), try to spend some time each day working on touch typing (you can try [keybr.com](http://www.keybr.com)). If you already know how to touch type, I would highly recommend working through the JavaScript lessons on [typing.io](http://typing.io). Typing for programming is actually a good bit different than everyday typing, so getting some practice in could potentially save you a ton of time the first few weeks of class.
