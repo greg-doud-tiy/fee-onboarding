@@ -15,7 +15,7 @@
     <h3>Prework</h3>
     {% assign sorted_prework = site.prework | sort: 'order' %}
     {% for prework in sorted_prework | sort: 'order' %}
-      <div><a href='{{ site.baseurl }}/{{prework.url}}'>{{prework.title}}</a></div>
+      <div><a href='{{ site.baseurl }}{{prework.url}}'>{{prework.title}}</a></div>
     {% endfor %}
   </nav>
 </header>
