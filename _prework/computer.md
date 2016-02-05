@@ -53,6 +53,7 @@ change.  If you run into ANY PROBLEMS, send me an e-mail at: [site.author_email]
   * Go and get some coffee. That last one will take a while.
   * `rbenv global 2.3.0`
   * Close and reopen Terminal.
+  * `gem install pry`
   * Run `which ruby`. If you see a path starting with `/usr/bin/`, get a TA or instructor to help you.
 
 <!-- * Install nodejs
