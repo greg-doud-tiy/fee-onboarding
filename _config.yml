@@ -8,6 +8,9 @@ baseurl: /onboarding
 author_name: Russell Osborne
 author_email: russell@theironyard.com
 author_url: https://github.com/rposborne
+cd_name_informal: Su
+cd_name: Su Kim
+cd_email: su@theironyard.com
 collections:
   prework:
     output: true
