@@ -56,13 +56,3 @@ GitHub is a web-based hosting and communication service for software development
 ### Supplemental
 
 Check out the [GitHub Guides](https://guides.github.com/) if you want to learn more about using GitHub prior to class.
-
-## Typing
-
-Believe it or not, *a lot* of time in the first weeks of programming is spent fixing simple typing errors. It would not be ridiculous to suggest that many of you will spend 12-24 hours (or more) fixing typing errors during class.
-
-### Supplemental
-
-Check out the [GitHub Guides](https://guides.github.com/) if you want to learn more about using GitHub prior to class.
-
-If you don't know how to touch type (i.e., type without looking at the keyboard), try to spend some time each day working on touch typing (you can try [keybr.com](http://www.keybr.com)). If you already know how to touch type, I would highly recommend working through the JavaScript lessons on [typing.io](http://typing.io). Typing for programming is actually a good bit different than everyday typing, so getting some practice in could potentially save you a ton of time the first few weeks of class.
