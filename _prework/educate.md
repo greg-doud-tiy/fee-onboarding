@@ -4,7 +4,7 @@ layout: default
 order: 3
 ---
 
-## ruby
+## Ruby
 
 If you haven't completed it already, [Codecademy](http://www.codecademy.com) has a Ruby course that you should walk through to familiarize yourself with the concepts.
 
