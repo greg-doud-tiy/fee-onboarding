@@ -12,3 +12,7 @@ The Iron Yard Team
 
 This site is customized primarily by using jekyll's `_config.yml` file,  this will include all personalizations between classes.
 Please fork this repo for your class and provide a PR with any customizations back so we can learn and improve.
+
+#### Prework Surveys
+
+Forms are available under Google Forms, to the entire IronYard Company,  If you wish to just use email simply remove the prework_survey_1, and prework_survey_2 from the `_config.yml`  Questions in the form should reflect the fallback email.
