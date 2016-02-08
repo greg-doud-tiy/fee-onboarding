@@ -50,7 +50,7 @@ GitHub is a web-based hosting and communication service for software development
 
 1. Sign up for a [Github](https://github.com/) account, if you don't have one already.
 2. Make sure to add a profile picture and your full name, since this will help me learn your name. The _username_ you choose does not need to reflect your real name; if you have a handle you already use (for Twitter, IM, IRC, etc.) feel free to use that.
-3. Email [me](mailto:{{ site.author_email }}) the username you choose so that I can get you added to the group we'll be using for class.
+3. Email [me](mailto:{{ site.instructor_email }}) the username you choose so that I can get you added to the group we'll be using for class.
 4. Complete [try.github.io](https://try.github.io/).
 
 ### Supplemental
