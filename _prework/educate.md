@@ -56,3 +56,24 @@ GitHub is a web-based hosting and communication service for software development
 ### Supplemental
 
 Check out the [GitHub Guides](https://guides.github.com/) if you want to learn more about using GitHub prior to class.
+
+## Wrapping up
+
+{% if site.prework_survey_2 %}
+
+<a class='btn' href='{{site.prework_survey_2}}'>Complete the Final Survey</a>
+
+{% else %}
+__Compose an email to [me](mailto:{{ site.instructor_email }}) answering the following questions:__
+
+  * What is program Control Flow? How many shapes can it take?
+  * What are the differences (in Ruby) between an Array and a Hash?
+  * Go to http://gist.github.com. Create a new gist which contains Ruby code. This code should: (a) use at least one variable; (b) use at least one loop; (c) use at least one method written by you. Paste the link to this gist in as the answer to this question, then describe what your code does in English.
+  * Copy this Ruby code out to a file on your file system. Save it, run it to make sure that it works, and commit it to a new git repository. Push that repository up to GitHub and paste a link to your GitHub repository here.
+  * Write a set of command line commands which accomplish the following (in this order): (a) change directory to your home directory; (b) look at the contents of your home directory; (c) make a new directory called "iron_yard" inside your home directory; (d) copy the file called ".bash_profile" into the new "iron_yard" directory; (e) change into that directory; (f) remove the copy of the ".bash_profile" file within "iron_yard".
+  * When can merge conflicts occur in git?
+  * Write a CSS selector to find all <span> HTML elements with a class of "important" which happen to be inside of any <h3> elements.
+  * Which part of the prework did you like the MOST?
+  * Which part of the prework did you like the LEAST?
+
+{% endif %}

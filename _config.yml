@@ -11,8 +11,8 @@ instructor_url: https://github.com/rposborne
 cd_name_informal: Su
 cd_name: Su Kim
 cd_email: su@theironyard.com
-prework_survey_1: https://github.com/tiy-dc-ror-2016-feb/onboarding
-prework_survey_2: https://github.com/tiy-dc-ror-2016-feb/onboarding
+prework_survey_1: http://goo.gl/forms/49LKcBv5tZ
+prework_survey_2: http://goo.gl/forms/ePAmcTj4jA
 collections:
   prework:
     output: true
