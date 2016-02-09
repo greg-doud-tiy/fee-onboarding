@@ -12,7 +12,9 @@ order: 2
 
 {% if site.prework_survey_1 %}
 
-<a class='btn' href='{{site.prework_survey_1}}'>Complete the Survey</a>
+Once you have read the above articles take some time to fill out the questionnaire __(required)__
+
+<a class='btn' href='{{site.prework_survey_1}}'>Complete the Questionnaire</a>
 
 {% else %}
 
