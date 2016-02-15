@@ -4,6 +4,7 @@ description: >
   The Iron Yard - Washington DC
 repository_url: https://github.com/tiy-dc-ror-2016-feb/onboarding
 repository_shorthand: tiy-dc-ror-2016-feb/onboarding
+class_github_org: https://github.com/tiy-dc-ror-2016-feb
 baseurl: /onboarding
 instructor_name: Russell Osborne
 instructor_email: russell@theironyard.com
