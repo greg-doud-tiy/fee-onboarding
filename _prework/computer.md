@@ -19,7 +19,7 @@ You'll need to install OS X El Capitan if your Mac didn't have it pre-installed 
 
 As soon as possible after receiving your Mac, run through the following steps.
 If you've done a lot of your own configuration, some of these steps may have to
-change.  If you run into ANY PROBLEMS, send me an e-mail at: [site.instructor_email](mailto:{{ site.instructor_email }})
+change.  If you run into ANY PROBLEMS, send me an e-mail at: [{{site.instructor_email}}](mailto:{{ site.instructor_email }})
 
 * Install Atom
   * Download Atom from [the Atom website](https://atom.io/).
