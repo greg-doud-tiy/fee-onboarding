@@ -14,6 +14,7 @@ cd_name: Su Kim
 cd_email: su@theironyard.com
 prework_survey_1: http://goo.gl/forms/49LKcBv5tZ
 prework_survey_2: http://goo.gl/forms/ePAmcTj4jA
+google_analytics_uid: UA-73814182-1
 collections:
   prework:
     output: true
