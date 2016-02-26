@@ -7,7 +7,7 @@ order: 2
 ## Mindset
 
 1. Read [Fixed vs. Growth: The Two Basic Mindsets That Shape Our Lives](http://www.brainpickings.org/2014/01/29/carol-dweck-mindset/)
-2. Read [What is Code](http://www.bloomberg.com/graphics/2015-paul-ford-what-is-code/)
+1. Read from the top down through the “Programming” section (2.2) of this page. [Top-down thinkers vs Bottom-up thinkers ](https://en.wikipedia.org/wiki/Top-down_and_bottom-up_design)
 3. Read / Listen [Visual/auditory/tactile/etc learning styles](http://www.npr.org/blogs/health/2011/08/29/139973743/think-youre-an-auditory-or-visual-learner-scientists-say-its-unlikely)
 
 {% if site.prework_survey_1 %}
