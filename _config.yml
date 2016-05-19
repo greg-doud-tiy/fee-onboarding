@@ -1,20 +1,19 @@
-title: Backend Engineering Onboarding | The Iron Yard - Washington DC
-project_name: Backend Engineering
+title: Frontend Engineering Onboarding | The Iron Yard - Washington DC
+project_name: Frontend Engineering
 description: >
   The Iron Yard - Washington DC
-repository_url: https://github.com/tiy-dc-ror-2016-feb/onboarding
-repository_shorthand: tiy-dc-ror-2016-feb/onboarding
-class_github_org: https://github.com/tiy-dc-ror-2016-feb
+repository_url: https://github.com/tiydc/fee-onboarding
+repository_shorthand: tiydc/fee-onboarding
+class_github_org: https://github.com/tiydc
 baseurl: /onboarding
-instructor_name: Russell Osborne
-instructor_email: russell@theironyard.com
-instructor_url: https://github.com/rposborne
+instructor_name: Jordan Kasper
+instructor_email: jordan.kasper@theironyard.com
+instructor_url: https://github.com/jakerella
 cd_name_informal: Su
 cd_name: Su Kim
 cd_email: su@theironyard.com
-prework_survey_1: http://goo.gl/forms/49LKcBv5tZ
-prework_survey_2: http://goo.gl/forms/ePAmcTj4jA
-google_analytics_uid: UA-73814182-1
+prework_survey_1: http://goo.gl/forms/
+prework_survey_2: http://goo.gl/forms/
 collections:
   prework:
     output: true
