@@ -217,7 +217,7 @@ footer {
   text-align: center;
 }
 
-.btn {
+.btn, .btn:visited {
   -webkit-border-radius: 3;
   -moz-border-radius: 3;
   border-radius: 3px;
@@ -228,11 +228,21 @@ footer {
   padding: 10px 20px 10px 20px;
   margin-top: 50px;
   text-decoration: none;
+  box-shadow: 1px 2px 2px #ccf;
 }
 
 .btn:hover {
   background: #3cb0fd;
-  text-decoration: none;
+  box-shadow: none;
+}
+
+.btn:active {
+  background: #62baf5;
+  box-shadow: none;
+}
+
+.cta {
+  text-align: center;
 }
 
 @media print, screen and (max-width: 960px) {
