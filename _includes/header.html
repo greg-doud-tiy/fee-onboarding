@@ -1,8 +1,8 @@
 <header>
 
   <h1><a href='{{ site.baseurl }}/'>
-    <img src="{{ site.baseurl }}/img/rails.png" alt="The Iron Yard Rails Engineering Shield Logo">
-    <br \>
+    <img class='logo' src="{{ site.classLogo }}" alt="The Iron Yard Frontend Engineering Logo">
+    <br>
     {{ site.project_name }}
   </a></h1>
   <p>{{ site.description }}</p>
@@ -15,7 +15,7 @@
     <div><a href='{{ site.baseurl }}/communication.html'>Communication</a></div>
     <div><a href='{{ site.baseurl }}/honesty.html'>Honesty</a></div>
     <div><a href='{{ site.baseurl }}/code_of_conduct.html'>Code of Conduct</a></div>
-    <br />
+    <br>
 
     <h3>Prework</h3>
     {% assign sorted_prework = site.prework | sort: 'order' %}

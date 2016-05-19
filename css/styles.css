@@ -106,7 +106,9 @@ img {
 header {
   width:270px;
   float:left;
-  position:fixed;
+}
+header .logo {
+  width:6em;
 }
 
 header ul {
@@ -303,5 +305,3 @@ footer {
     color:#444;
   }
 }
-
-
