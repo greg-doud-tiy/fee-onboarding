@@ -8,9 +8,24 @@
 
       {% include header.html %}
 
-      <section>
+      <section data-section="{{page.title}}">
 
         {{ content }}
+
+        {% assign next = page.order | plus:1 %}
+        {% assign sorted_sections = site.sections | where:"order",next %}
+        {% if sorted_sections.first %}
+          <div class='cta'>
+            <a href='{{site.baseurl}}{{sorted_sections.first.url}}' class='btn'>
+              {% if page.title == "Welcome" %}
+                Begin
+              {% else %}
+                Next
+              {% endif %}
+            </a>
+          </div>
+        {% endif %}
+
         {% include footer.html %}
       </section>
     </div>
