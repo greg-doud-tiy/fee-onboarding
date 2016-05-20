@@ -16,5 +16,5 @@ cd_email: su@theironyard.com
 prework_survey_1: http://goo.gl/forms/
 prework_survey_2: http://goo.gl/forms/
 collections:
-  prework:
+  sections:
     output: true

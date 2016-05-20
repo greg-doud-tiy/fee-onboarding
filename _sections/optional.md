@@ -1,7 +1,8 @@
 ---
 title: Optional Material
 layout: default
-order: 7
+category: prework
+order: 9
 ---
 
 ## Optional Material

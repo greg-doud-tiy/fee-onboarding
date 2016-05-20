@@ -11,16 +11,19 @@
 
   <nav>
     <h3>Class Policies</h3>
-    <div><a href='{{ site.baseurl }}/homework.html'>Homework</a></div>
-    <div><a href='{{ site.baseurl }}/communication.html'>Communication</a></div>
-    <div><a href='{{ site.baseurl }}/honesty.html'>Honesty</a></div>
-    <div><a href='{{ site.baseurl }}/code_of_conduct.html'>Code of Conduct</a></div>
-    <br>
+    <ul>
+      {% assign sorted_sections = site.sections | sort: 'order' | where:"category","policy" %}
+      {% for policy in sorted_sections %}
+        <li><a href='{{ site.baseurl }}{{policy.url}}'>{{policy.title}}</a></li>
+      {% endfor %}
+    </ul>
 
     <h3>Prework</h3>
-    {% assign sorted_prework = site.prework | sort: 'order' %}
-    {% for prework in sorted_prework | sort: 'order' %}
-      <div><a href='{{ site.baseurl }}{{prework.url}}'>{{prework.title}}</a></div>
-    {% endfor %}
+    <ul>
+      {% assign sorted_sections = site.sections | sort: 'order' | where:"category","prework" %}
+      {% for prework in sorted_sections %}
+        <li><a href='{{ site.baseurl }}{{prework.url}}'>{{prework.title}}</a></li>
+      {% endfor %}
+    </ul>
   </nav>
 </header>

@@ -1,6 +1,8 @@
 ---
 title: Code of Conduct
 layout: default
+category: policy
+order: 4
 ---
 
 ## Code of Conduct

@@ -1,7 +1,8 @@
 ---
 title: Mindset
 layout: default
-order: 2
+category: prework
+order: 6
 ---
 
 ## Mindset

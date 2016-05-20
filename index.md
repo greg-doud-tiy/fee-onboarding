@@ -27,5 +27,6 @@ The following are the learning objectives for this prework, all of which are imp
 Please spend some time reviewing our class policies, and then begin some of the initial prework. These are not short tasks, so please leave yourself lots of time for the entire process. Each step will have some time estimates included so that you can leave yourself enough time on any given day to complete that step.
 
 <div class='cta'>
-  <a href='{{site.baseUrl}}homework.html' class='btn'>Begin</a>
+  {% assign sorted_prework = site.sections | sort: 'order' %}
+  <a href='{{site.baseurl}}{{sorted_prework.first.url}}' class='btn'>Begin</a>
 </div>

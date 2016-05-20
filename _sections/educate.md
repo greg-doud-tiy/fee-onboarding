@@ -1,7 +1,8 @@
 ---
 title: Educate
 layout: default
-order: 3
+category: prework
+order: 8
 ---
 
 ## Ruby

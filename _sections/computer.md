@@ -1,7 +1,8 @@
 ---
 title: Computer
 layout: default
-order: 3
+category: prework
+order: 7
 ---
 
 # Computer Setup

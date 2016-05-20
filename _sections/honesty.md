@@ -1,6 +1,8 @@
 ---
 title: Honesty
 layout: default
+category: policy
+order: 3
 ---
 
 >"Honesty is more than not lying. It is truth telling, truth speaking, truth living, and truth loving."

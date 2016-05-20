@@ -1,6 +1,8 @@
 ---
 title: Communication
 layout: default
+category: policy
+order: 1
 ---
 
 ## Communication Policy

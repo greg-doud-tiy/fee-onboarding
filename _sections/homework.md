@@ -1,6 +1,8 @@
 ---
 title: Homework
 layout: default
+category: policy
+order: 2
 ---
 
 ## Homework & Assignments

@@ -1,7 +1,8 @@
 ---
 title: Accounts
 layout: default
-order: 1
+category: prework
+order: 5
 ---
 
 ## Accounts You'll Need
