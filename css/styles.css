@@ -205,6 +205,10 @@ strong {
 .progress-action .btn {
   font-size: 0.8em;
 }
+.is-complete {
+  margin-left: 0.5em;
+  color: #467c46;
+}
 
 section {
   width:500px;

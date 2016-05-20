@@ -11,6 +11,8 @@
 
         try { progress = JSON.parse(localStorage.getItem(PROGRESS_KEY)) || {}; } catch(e){ progress = {}; }
 
+        markNavProgress();
+
         if (content.dataset.section && content.dataset.section !== 'Welcome') {
             loadProgressUI(content.dataset.section);
         }
@@ -21,9 +23,9 @@
             section = content.dataset.section;
 
         if (progress[section] === true) {
-            action = '&#10003 Complete <a href="#" class="undo" title="Undo">&#8635;</a>';
+            action = '&#10003; Complete <a href="#" class="undo" title="Undo">&#8635;</a>';
         } else {
-            action = '<a href="#" class="complete btn">&#10003 Mark Complete</a>';
+            action = '<a href="#" class="complete btn">&#10003; Mark Complete</a>';
         }
 
         template = `<h3 class='progress-action'>${action}</h3>`;
@@ -46,6 +48,21 @@
         ui = document.querySelector('.progress-action');
         ui.parentNode.removeChild(ui);
         loadProgressUI();
+        markNavProgress();
+    }
+
+    function markNavProgress() {
+        var sections = document.querySelectorAll('header nav li');
+
+        [].slice.call(sections).forEach(function markComplete(section) {
+            var check = section.querySelector('.is-complete');
+            if (check) {
+                section.removeChild(check);
+            }
+            if (progress[section.innerText]) {
+                section.innerHTML += "<span class='is-complete'>&#10003;</span>";
+            }
+        });
     }
 
 
