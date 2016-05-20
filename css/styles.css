@@ -198,6 +198,14 @@ strong {
   color:#222;
 }
 
+.progress-action {
+  float: right;
+  color: #467c46;
+}
+.progress-action .btn {
+  font-size: 0.8em;
+}
+
 section {
   width:500px;
   float:right;
@@ -228,9 +236,9 @@ footer {
   border-radius: 3px;
   font-family: Arial;
   color: #ffffff;
-  font-size: 20px;
+  font-size: 1.5em;
   background: #3498db;
-  padding: 10px 20px 10px 20px;
+  padding: 0.4em 1em;
   margin-top: 50px;
   text-decoration: none;
   box-shadow: 1px 2px 2px #ccf;
