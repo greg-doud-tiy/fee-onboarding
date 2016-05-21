@@ -105,6 +105,7 @@
             if (name && name.length) {
                 localStorage.setItem(NAME_KEY, name);
                 document.body.removeChild(document.querySelector('.name-entry-modal'));
+                document.querySelector('.student-name').innerText = `Hello again ${name}!`;
             }
         });
     }
