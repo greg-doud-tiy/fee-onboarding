@@ -346,9 +346,7 @@ input.block {
 }
 
 time.estimate {
-  font-size: 0.8em;
   color: #888;
-  margin-left: 1em;
   font-weight: normal;
 }
 time.estimate::before {
@@ -356,6 +354,15 @@ time.estimate::before {
 }
 time.estimate::after {
   content: ")";
+}
+time.estimate {
+  position: relative;
+  top: -1.3em;
+}
+h1 time.estimate, h2 time.estimate, h3 time.estimate {
+  font-size: 0.8em;
+  margin-left: 1em;
+  top: auto;
 }
 
 .toc ul {
