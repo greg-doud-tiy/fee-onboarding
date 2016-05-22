@@ -15,7 +15,7 @@ Remember, we are all in this together. We will have individual assignments and g
 
 Thank you for your commitment and hard work! It will be rewarded.
 
-There are quite a few tasks and topics that are necessary to take care of before we can actually start learning how to be a developer. Rather than using class time to get through these, I expect that you can accomplish and learn these things without assistance so that we can spend class time only on those things that are difficult to learn on your own. If you have any questions or confusion about these tasks, please [email me](mailto:{{site.instructor_email}}) so I can help you work through them.
+**There are quite a few tasks and topics that are necessary to take care of before we can actually start learning how to be a developer.** Rather than using class time to get through these, I expect that you can accomplish and learn these things without assistance so that we can spend class time only on those things that are difficult to learn on your own. If you have any questions or confusion about these tasks, please [email me](mailto:{{site.instructor_email}}) so I can help you work through them.
 
 ## Objectives
 
