@@ -1,6 +1,7 @@
 ---
 title: Welcome
 layout: default
+category: static
 ---
 
 ## Welcome!
@@ -25,3 +26,10 @@ The following are the learning objectives for this prework, all of which are imp
 ## What's Next?
 
 Please spend some time reviewing our class policies, and then begin some of the initial prework. These are not short tasks, so please leave yourself lots of time for the entire process. Each step will have some time estimates included so that you can leave yourself enough time on any given day to complete that step.
+
+{% assign sorted_sections = site.sections | where:"order",1 %}
+{% if sorted_sections.first %}
+  <div class='cta'>
+    <a href='{{site.baseurl}}{{sorted_sections.first.url}}' class='btn'>Begin</a>
+  </div>
+{% endif %}
