@@ -5,7 +5,7 @@ category: policy
 order: 3
 ---
 
-## Honesty Policy
+## Honesty Policy <time class='estimate'>&lt;1 hour</time>
 
 > "Honesty is more than not lying. It is truth telling, truth speaking, truth living, and truth loving."
 > -James E. Faust

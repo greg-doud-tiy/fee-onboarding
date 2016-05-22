@@ -345,6 +345,19 @@ input.block {
   width: 100%;
 }
 
+time.estimate {
+  font-size: 0.8em;
+  color: #888;
+  margin-left: 1em;
+  font-weight: normal;
+}
+time.estimate::before {
+  content: "(";
+}
+time.estimate::after {
+  content: ")";
+}
+
 .toc ul {
   list-style: none;
   padding: 0;

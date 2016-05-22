@@ -5,7 +5,7 @@ category: prework
 order: 6
 ---
 
-## Mindset
+## Mindset <time class='estimate'>6 hours</time>
 
 In preparation for entering a (most likely) very different world of learning and education than anything you've experienced before, please read the following articles. They are meant to expand your mind and force some thought on how best you can absorb the information you're about to receive.
 

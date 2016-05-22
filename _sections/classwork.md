@@ -5,7 +5,7 @@ category: policy
 order: 2
 ---
 
-## Lecture & Assignments
+## Lecture & Assignments <time class='estimate'>&lt;1 hour</time>
 
 This class is composed of many types of lectures, presentations, assignments, exercises, and quizzes to ensure that you are provided with the best possible learning methods for any given topic - and for a wide array of learning styles. This section highlights some of these teaching tools and formats so that you know what to expect.
 

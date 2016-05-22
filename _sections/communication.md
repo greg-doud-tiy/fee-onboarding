@@ -5,7 +5,7 @@ category: policy
 order: 1
 ---
 
-## Communication Policy
+## Communication Policy <time class='estimate'>&lt;1 hour</time>
 
 This policy is intended to ensure you are successful in this program. **In all cases, more communication is better.** The guidelines below are meant to help structure our communication for the best results.
 

@@ -5,7 +5,7 @@ category: policy
 order: 4
 ---
 
-## Code of Conduct
+## Code of Conduct <time class='estimate'>&lt;1 hour</time>
 
 Like the technical community as a whole, classes at The Iron Yard are made up of a mixture of people from all different backgrounds. Diversity is one of our huge strengths, but it can also lead to communication issues and unhappiness. To that end, we have a few ground rules that we ask people to adhere to when they are taking a class at The Iron Yard. These rules apply equally to instructors, students, other staff, and guest lecturers.
 
