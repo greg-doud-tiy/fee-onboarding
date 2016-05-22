@@ -5,60 +5,93 @@ category: prework
 order: 8
 ---
 
-## Ruby
+## Educate <time class='estimate'>15-30 hours</time>
 
-If you haven't completed it already, [Codecademy](http://www.codecademy.com) has a Ruby course that you should walk through to familiarize yourself with the concepts.
+Before we begin our formal instruction you should familiarize yourself with the various technologies that we'll be learning. This educational prework will be valuable in giving you a brief introduction to the primary concepts that we'll dig into throughout the class. **Even if you have completed similar exercises in the past, please go through these tutorials again.** Repetition on core concepts can solidify that knowledge and create a base from which you can grow in class.
 
-[http://www.codecademy.com/en/tracks/ruby](http://www.codecademy.com/en/tracks/ruby)
+The online courses below are not meant to be a source of stress for you. It is important that you attempt all of the lessons and exercises, but do not worry if some things just don't make sense yet.
 
-## HTML/CSS
+<nav class='toc'></nav>
 
-HTML/CSS will be covered in the course, but not to the same depth as Ruby and Rails, so it would benefit you extremely to be familiar with building websites.
+### HTML and CSS
+
+<time class='estimate'>5 hours</time>
+
+HTML and CSS will be covered in depth during the course, but this basic introduction will help ease you into the topic once we begin.
 
 [http://www.codecademy.com/en/tracks/web](http://www.codecademy.com/en/tracks/web)
 
-## The Command Line
+* Complete Units 1-5
+* _Do not worry about any sections requiring a "Pro" account_
 
-The command line is an interface to the internals of your computer, as opposed to the graphical user interface (GUI) that we commonly use. We will be using the command line _extensively_ in our class, but the point of this prework is not to be an expert, just to start to get comfortable.
+#### Optional
+
+Continue your introduction with some additional reading:
+
+* [Getting to know HTML](http://learn.shayhowe.com/html-css/getting-to-know-html/)
+* [Getting to know CSS](http://learn.shayhowe.com/html-css/getting-to-know-css/)
+* [More online exercises](https://www.codeschool.com/courses/front-end-foundations)
+
+### JavaScript
+
+<time class='estimate'>8 hours</time>
+
+Similar to HTML and CSS, JavaScript will be a large focus in our class. This introduction will help to get you familiar with the concepts before our class begins. We will go much further in depth with JavaScript.
+
+[https://www.codecademy.com/learn/javascript](https://www.codecademy.com/learn/javascript)
+
+* Complete Units 1, 2, 3, 5 and 6
+* _Do not worry about any sections requiring a "Pro" account_
+
+#### Optional
+
+Continue your introduction with some additional reading:
+
+* [Eloquent JavaScript](http://eloquentjavascript.net/) - Chapters 1-4
+* [More online exercises](http://javascript-roadtrip.codeschool.com/levels/1/challenges/1)
+
+### The Command Line
+
+<time class='estimate'>2 hours</time>
+
+The command line - also called the "terminal" - is an interface to the internals of your computer, as opposed to the graphical user interface (GUI) that we commonly use. We will be using the command line _extensively_ in our class, but the point of this prework is not to be an expert, just to start to get comfortable.
 
 Especially if you've never used the command line before, you may want to go through these more than once. Make sure not just to read/watch, but really dive in and use the commands that you learn about.
 
 Read and practice the following:
 
-1. [Command Line](http://skillcrush.com/2012/12/03/command-line-2/) at SkillCrush
-2. [Command Line Basics](http://blog.teamtreehouse.com/command-line-basics) at Treehouse
+* [What is the command line?](https://www.davidbaumgold.com/tutorials/command-line/#what-is-the-command-line?)
+* [Learn the command line](https://www.codecademy.com/learn/learn-the-command-line)
 
-### Supplemental
+#### Supplemental
 
 Further reading and practice:
 
-1. [The Command Line Crash Course](http://cli.learncodethehardway.org/book/)
-2. [A Command Line Primer for Beginners](http://lifehacker.com/5633909/who-needs-a-mouse-learn-to-use-the-command-li…)
+* [Command Line Basics](http://blog.teamtreehouse.com/command-line-basics) at Treehouse
+* [The Command Line Crash Course](http://cli.learncodethehardway.org/book/)
+* [A Command Line Primer for Beginners](http://lifehacker.com/5633909/who-needs-a-mouse-learn-to-use-the-command-li…)
 
-## Git
+### Git
+
+<time class='estimate'>5 hours</time>
 
 > Git is a free and open source distributed version control system designed to handle everything from small to very large projects with speed and efficiency.
 
 It is a command line tool that we will be using for every project we do in class. Again, the objective is not to become an expert before the class, but just to start to get comfortable.
 
-### Supplemental
+* [Discover git](https://www.codeschool.com/courses/try-git)
+* [More git exercises](https://try.github.io/levels/1/challenges/1) (go through section 1.9)
+* [What is GitHub?](http://www.howtogeek.com/180167/htg-explains-what-is-github-and-what-do-geeks-use-it-for/)
+
+#### Optional
 
 If you want to spend some more time with git, [Git Immersion](http://gitimmersion.com/) is a great resource.
 
-## GitHub
-
-GitHub is a web-based hosting and communication service for software development projects that uses the Git revision control system.
-
-1. Sign up for a [Github](https://github.com/) account, if you don't have one already.
-2. Make sure to add a profile picture and your full name, since this will help me learn your name. The _username_ you choose does not need to reflect your real name; if you have a handle you already use (for Twitter, IM, IRC, etc.) feel free to use that.
-3. Email [me](mailto:{{ site.instructor_email }}) the username you choose so that I can get you added to the group we'll be using for class.
-4. Complete [try.github.io](https://try.github.io/).
-
-### Supplemental
-
 Check out the [GitHub Guides](https://guides.github.com/) if you want to learn more about using GitHub prior to class.
 
-## Wrapping up
+### Wrapping up
+
+The last thing I need you to do is submit this final survey/quiz. This shows me that you've gone through all of the materials and are ready to begin! Please make sure you read each of our policy and prework sections, and that you mark them as "Complete" with the buttons at the top of each page!
 
 <div class='cta'>
   <a class='btn' href='{{site.baseurl}}/survey.html'>Complete the Final Survey</a>

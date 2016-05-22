@@ -8,7 +8,9 @@ category: static
 
 <form class='final-survey' action='//formspree.io/{{site.instructor_email}}' method='post'>
 
-  <p>Please fill out this survey to show us what you've learned so far!</p>
+  <p>
+    Please fill out this survey to show us what you've learned so far! Please make sure you read each of our policy and prework sections, and that you mark them as "Complete" with the buttons at the top of each page!
+  </p>
 
   <div class='form-group'>
     <label>
