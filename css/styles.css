@@ -220,6 +220,11 @@ strong {
   color: #467c46;
 }
 
+img.instructor {
+  width: 10em;
+  float: right;
+}
+
 section {
   width:500px;
   float:right;
