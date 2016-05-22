@@ -345,6 +345,21 @@ input.block {
   width: 100%;
 }
 
+.toc ul {
+  list-style: none;
+  padding: 0;
+}
+.toc li {
+  display: inline-block;
+  margin: 0 0.2em;
+}
+.toc li::after {
+  content: " |";
+}
+.toc li:last-child::after {
+  content: "";
+}
+
 
 @media print, screen and (max-width: 960px) {
 

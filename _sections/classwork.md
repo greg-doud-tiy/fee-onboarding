@@ -9,6 +9,8 @@ order: 2
 
 This class is composed of many types of lectures, presentations, assignments, exercises, and quizzes to ensure that you are provided with the best possible learning methods for any given topic - and for a wide array of learning styles. This section highlights some of these teaching tools and formats so that you know what to expect.
 
+<nav class='toc'></nav>
+
 ### Schedule
 
 You are expected to be on campus from at least 9am until around 5pm each week day. You are welcome to arrive early, leave late, or work from campus on the weekends if you wish.

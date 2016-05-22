@@ -28,6 +28,8 @@
         } else if (section === 'Final Survey') {
             initFinalSurvey();
         }
+
+        buildSectionTOC();
     }
 
     function loadProgressUI() {
@@ -146,6 +148,21 @@
             <p>I can't wait to see you in class!</p>`
         );
         form.remove();
+    }
+
+    function buildSectionTOC() {
+        var headers,
+            toc = content.find('.toc');
+
+        if (!toc.length) { return; }
+
+        headers = toc.nextAll('h1,h2,h3,h4,h5,h6').map(function() {
+            return `<li><a href='#${this.innerText.toLowerCase().replace(/\s/g,'-')}'>${this.innerText}</a></li>`;
+        });
+
+        toc.html(`<ul>
+            ${[].slice.call(headers).join('')}
+         </ul>`);
     }
 
 
