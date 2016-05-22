@@ -13,8 +13,6 @@ instructor_url: https://github.com/jakerella
 cd_name_informal: Su
 cd_name: Su Kim
 cd_email: su@theironyard.com
-prework_survey_1: http://goo.gl/forms/
-prework_survey_2: http://goo.gl/forms/
 collections:
   sections:
     output: true

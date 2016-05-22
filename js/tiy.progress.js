@@ -1,49 +1,45 @@
-(function(tiy) {
+(function(tiy, $) {
     'use strict';
 
-    var progress, content;
-    var PROGRESS_KEY = 'section-progress';
+    var progress, content, section;
+    var PROGRESS_KEY = 'tiy-section-progress';
     var NAME_KEY = 'tiy-name';
+    var SURVEY_KEY = 'tiy-survey-answers';
 
     init();
 
     function init() {
         var name = localStorage.getItem(NAME_KEY);
         if (name) {
-            document.querySelector('.student-name').innerText = `Hello again ${name}!`;
+            $('.student-name').text(`Hello again ${name}!`);
         } else {
             askForName();
         }
 
-        content = document.querySelector('.content');
+        content = $('.content');
+        section = content.data('section') || null;
 
         try { progress = JSON.parse(localStorage.getItem(PROGRESS_KEY)) || {}; } catch(e){ progress = {}; }
 
         markNavProgress();
 
-        if (content.dataset.section && content.dataset.section !== 'Welcome') {
-            loadProgressUI(content.dataset.section);
+        if (content.data('category') !== 'static') {
+            loadProgressUI();
+        } else if (section === 'Final Survey') {
+            initFinalSurvey();
         }
     }
 
     function loadProgressUI() {
-        var btn, template, action,
-            section = content.dataset.section;
+        content.prepend(
+`<h3 class='progress-action'>
+    <span class='complete-notice'>&#10003; Complete <a href='#' class='undo' title='Undo'>&#8635;</a></span>
+    <span class='incomplete-notice'><a href='#' class='complete btn'>&#10003; Mark Complete</a></span>
+</h3>`
+        );
 
-        if (progress[section] === true) {
-            action = '&#10003; Complete <a href="#" class="undo" title="Undo">&#8635;</a>';
-        } else {
-            action = '<a href="#" class="complete btn">&#10003; Mark Complete</a>';
-        }
-
-        template = `<h3 class='progress-action'>${action}</h3>`;
-
-        content.innerHTML = template + content.innerHTML;
-
-        btn = document.querySelector('.complete') || document.querySelector('.undo');
-        if (btn) {
-            btn.addEventListener('click', toggleSectionComplete);
-        }
+        $('.' + ((progress[section] === true) ? 'in' : '') + 'complete-notice').hide();
+        $('.complete, .undo').click(toggleSectionComplete);
     }
 
     function toggleSectionComplete(e) {
@@ -51,24 +47,20 @@
 
         e.preventDefault();
 
-        progress[content.dataset.section] = !progress[content.dataset.section];
+        progress[section] = !progress[section];
         localStorage.setItem(PROGRESS_KEY, JSON.stringify(progress));
-        ui = document.querySelector('.progress-action');
-        ui.parentNode.removeChild(ui);
-        loadProgressUI();
+        $('.incomplete-notice, .complete-notice').toggle();
+
         markNavProgress();
     }
 
     function markNavProgress() {
-        var sections = document.querySelectorAll('header nav li');
+        var navItems = $('header nav li');
+        navItems.find('.is-complete').remove();
 
-        [].slice.call(sections).forEach(function markComplete(section) {
-            var check = section.querySelector('.is-complete');
-            if (check) {
-                section.removeChild(check);
-            }
-            if (progress[section.innerText]) {
-                section.innerHTML += "<span class='is-complete'>&#10003;</span>";
+        navItems.each(function markComplete(navItem) {
+            if (progress[navItem.innerText]) {
+                navItem.append(`<span class='is-complete'>&#10003;</span>`);
             }
         });
     }
@@ -91,26 +83,71 @@
     </form>
 </aside>`;
 
-        var content = document.createElement('section');
-        content.classList.add('name-entry-modal');
-        content.innerHTML = modal;
+        $('body')
+            .append(
+                $('<section class="name-entry-modal">').html(modal)
+            )
+            .find('.modal-background')
+                .height(document.body.clientHeight + 'px')
+                .end()
+            .find('.name-entry form').submit(function(e) {
+                e.preventDefault();
 
-        document.body.appendChild(content);
-        document.querySelector('.modal-background').style.height = document.body.clientHeight + 'px';
+                var name = $('#student_name').val();
+                if (name && name.length) {
+                    localStorage.setItem(NAME_KEY, name);
+                    $('.name-entry-modal').remove();
+                    $('.student-name').text(`Hello again ${name}!`);
+                }
+            });
+    }
 
-        document.querySelector('.name-entry form').addEventListener('submit', function(e) {
+    function initFinalSurvey() {
+        var form = $('.final-survey');
+        var data = {};
+        try { data = JSON.parse(localStorage.getItem(SURVEY_KEY)) || {}; } catch(e) { /* don't care... */ }
+
+        if (data && data.succeeded) {
+            return showSurveySuccess(form);
+        }
+
+        form.find('.student-name').val(localStorage.getItem(NAME_KEY) || '');
+        form.submit(function(e) {
             e.preventDefault();
-            var name = document.getElementById('student_name').value;
-            console.log('saving name', name);
-            if (name && name.length) {
-                localStorage.setItem(NAME_KEY, name);
-                document.body.removeChild(document.querySelector('.name-entry-modal'));
-                document.querySelector('.student-name').innerText = `Hello again ${name}!`;
-            }
+
+            var newData = {};
+            form.serializeArray().forEach(function(field) {
+                newData[field.name] = field.value;
+            });
+
+            console.info('Submitting survey to %s %s', form.attr('method'), form.attr('action'), newData);
+
+            $.ajax({
+                url: form.attr('action'),
+                method: form.attr('method'),
+                data: newData,
+                dataType: 'json'
+            }).done(function() {
+                showSurveySuccess(form);
+                newData.succeeded = true;
+                window.scrollTo(0,0);
+            }).fail(function() {
+                alert('Sorry, but it looks like submitting the survey failed... Can you try again later? (Don\'t worry, I\'ll save your answers.)');
+            }).always(function() {
+                localStorage.setItem(SURVEY_KEY, JSON.stringify(newData));
+            });
         });
+    }
+
+    function showSurveySuccess(form) {
+        form.before(
+            `<h3>Thank you for submitting your survey!</h3>
+            <p>I can't wait to see you in class!</p>`
+        );
+        form.remove();
     }
 
 
     window.tiy = tiy;
 
-})(window.tiy || {});
+})(window.tiy || {}, window.jQuery);
