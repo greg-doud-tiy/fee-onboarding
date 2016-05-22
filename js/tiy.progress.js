@@ -58,9 +58,9 @@
         var navItems = $('header nav li');
         navItems.find('.is-complete').remove();
 
-        navItems.each(function markComplete(navItem) {
-            if (progress[navItem.innerText]) {
-                navItem.append(`<span class='is-complete'>&#10003;</span>`);
+        navItems.each(function markComplete() {
+            if (progress[$(this).text()]) {
+                $(this).append(`<span class='is-complete'>&#10003;</span>`);
             }
         });
     }
