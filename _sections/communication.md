@@ -11,9 +11,9 @@ This policy is intended to ensure you are successful in this program. **In all c
 
 **Please mark this section complete with the button above** once you have read it and are comfortable with it.
 
-We will be using a program called [Slack](https://get.slack.help/hc/en-us/categories/202622877-Slack-Guides) for the majority of our online conversations. This is vastly preferred over email for a variety of reasons. In addition to being an instant messaging application, it can also handle group chat, has numerous integrations with other services, and is easily searchable.
+We will be using a program called [Slack](https://slack.com/downloads) for the majority of our online conversations. This is vastly preferred over email for a variety of reasons. In addition to being an instant messaging application, it can also handle group chat, has numerous integrations with other services, and is easily searchable. You can [read more about how to use Slack](https://get.slack.help/hc/en-us/categories/202622877-Slack-Guides) on their website.
 
-### Communication Guidelines
+### Tips for Success
 
 * Asking for help is always encouraged.
 * More communication is better than less.
