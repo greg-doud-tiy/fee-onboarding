@@ -119,6 +119,7 @@
             form.serializeArray().forEach(function(field) {
                 newData[field.name] = field.value;
             });
+            newData['section-progress'] = progress;
 
             console.info('Submitting survey to %s %s', form.attr('method'), form.attr('action'), newData);
 
