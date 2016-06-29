@@ -13,7 +13,9 @@
         if (name) {
             $('.student-name').text(`Hello again ${name}!`);
         } else {
-            askForName();
+            // Removed by Su's request since she sends this to every applicant,
+            // not just people who are definitely taking the class.
+            // askForName();
         }
 
         content = $('.content');
