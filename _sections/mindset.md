@@ -21,9 +21,3 @@ In preparation for entering a (most likely) very different world of learning and
 1. Read: [What is code?](http://www.bloomberg.com/graphics/2015-paul-ford-what-is-code/)  
 (This one is long, prepare yourself! Take it in chunks.)
 
-__After reading this information, please [send me an email](mailto:{{ site.instructor_email }}) answering the following questions:__
-
-  1. What aspects of the Growth and Fixed mindset can you identify in your personal history? In what areas do you feel Fixed? Where do you see the most Growth?
-  1. What is your gut reaction to the third article on learning styles? Would you have said that you were a visual, an auditory, or a tactile learner?
-  1. What difficulties do you predict that you will encounter during our course? How have you reacted to similar situations in the past? How do you plan on reacting to these situations during the class?
-  1. What excited and surprised you in What is Code? Was the description of programming (both the activity and the culture) what you expected? How did it differ?

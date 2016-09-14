@@ -32,16 +32,14 @@ As soon as possible after receiving your Mac, run through the following steps. I
 
 #### Install a code editor
 
-You will need a program specifically designed for software development. We typically call this an IDE (an Integrated Development Environment). We recommend using the Atom editor which is made by GitHub.
+You will need a program specifically designed for software development. We typically call this an IDE (an Integrated Development Environment).
 
-Atom is not necessarily the best editor, but it has great defaults. If you are already using an editor and are comfortable with it then you may continue to use it. However, there may be times in class when I suggest a shortcut or editor configuration option that may be different for you! Good alternatives include: Sublime Text, Textmate, and MacVim.
+Sublime is not necessarily the best editor, but it has great defaults. If you are already using an editor and are comfortable with it then you may continue to use it. However, there may be times in class when I suggest a shortcut or editor configuration option that may be different for you! Good alternatives include: Atom, Textmate, and MacVim.
 
 To install Atom:
 
-  1. Download Atom from [the Atom website](https://atom.io/).
+  1. Download Sublime from [the Sublime website](https://www.sublimetext.com).
   1. Install it. If you're not familiar with Mac installations, [read more here](http://www.howtogeek.com/177619/how-to-install-applications-on-a-mac-everything-you-need-to-know/).
-  1. Start Atom from your Applications folder.
-  1. Click on the "Atom" option in your menu bar (all the way in the upper-left of your screen) and choose "Install Shell Commands."
 
 #### Install Google Chrome
 
@@ -83,6 +81,6 @@ Node.js is a technology we will use many times in class. You will learn more abo
 
 You may want to [add the following applications to your Dock](https://support.apple.com/en-us/HT201730) since we will use them regularly.
 
-  * Atom
+  * Sublime
   * Chrome
   * iTerm

@@ -89,10 +89,3 @@ If you want to spend some more time with git, [Git Immersion](http://gitimmersio
 
 Check out the [GitHub Guides](https://guides.github.com/) if you want to learn more about using GitHub prior to class.
 
-### Wrapping up
-
-The last thing I need you to do is submit this final survey/quiz. This shows me that you've gone through all of the materials and are ready to begin! Please make sure you read each of our policy and prework sections, and that you mark them as "Complete" with the buttons at the top of each page!
-
-<div class='cta'>
-  <a class='btn' href='{{site.baseurl}}/survey.html'>Complete the Final Survey</a>
-</div>
