@@ -6,7 +6,7 @@ description: >
 repository_url: https://github.com/jakeboyles/fee-onboarding
 repository_shorthand: jakeboyles/fee-onboarding
 class_github_org: https://github.com/jakeboyles
-baseurl: /
+baseurl: /fee-onboarding
 instructor_name: Jake Boyles
 instructor_email: jake.boyles@theironyard.com
 instructor_url: https://github.com/jakeboyles
