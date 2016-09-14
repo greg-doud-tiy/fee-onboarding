@@ -1,19 +1,19 @@
-title: Frontend Engineering Onboarding | The Iron Yard - Washington DC
+title: Frontend Engineering Onboarding | The Iron Yard - Cincinnati OH
 project_name: Frontend Engineering
 class_logo: img/fee.png
 description: >
-  The Iron Yard - Washington DC
-repository_url: https://github.com/tiydc/fee-onboarding
-repository_shorthand: tiydc/fee-onboarding
-class_github_org: https://github.com/tiydc
-baseurl: /fee-onboarding
-instructor_name: Jordan Kasper
-instructor_email: jordan.kasper@theironyard.com
-instructor_url: https://github.com/jakerella
+  The Iron Yard - Cincinnati
+repository_url: https://github.com/jakeboyles/fee-onboarding
+repository_shorthand: jakeboyles/fee-onboarding
+class_github_org: https://github.com/jakeboyles
+baseurl: /jakeboyles
+instructor_name: Jake Boyles
+instructor_email: jake.boyles@theironyard.com
+instructor_url: https://github.com/jakeboyles
 instructor_photo: https://jordankasper.com/images/jordan_bw.jpg
-cd_name_informal: Brian
-cd_name: Brian LeDuc
-cd_email: brian.leduc@theironyard.com
+cd_name_informal: Jeff
+cd_name: Jeff Boeh
+cd_email: jeff@theironyard.com
 collections:
   sections:
     output: true
