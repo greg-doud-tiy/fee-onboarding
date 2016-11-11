@@ -13,6 +13,22 @@ The online courses below are not meant to be a source of stress for you. It is i
 
 <nav class='toc'></nav>
 
+### C#.Net
+
+<time class='estimate'>6 hours</time>
+
+C#.Net is the primary programming language from Microsoft which will be at the core of our development cohort.
+
+[C# Programming Guide & Reference](https://msdn.microsoft.com/en-us/library/kx37x362.aspx)
+
+### SQL
+
+<time class='estimate'>6 hours</time>
+
+SQL Server is the data store and a very popular database.
+
+[SQL](https://msdn.microsoft.com/library/mt590198.aspx)
+
 ### HTML and CSS
 
 <time class='estimate'>5 hours</time>
