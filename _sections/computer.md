@@ -9,37 +9,40 @@ order: 7
 
 ### Hardware
 
-All students must bring their own MacBook laptop. Your MacBook should have a minimum of 4 GB of RAM and 128 GB of hard drive space. Those are minimum specs, but I **strongly** recommend getting 8 GB of RAM.
+All students must bring their own Windows laptop. Your laptop should have a minimum of 4 GB of RAM and 256 GB of hard drive space. Those are minimum specs, but I **strongly** recommend getting 8 GB of RAM.
 
-Here are the current [MacBook Air models](http://www.apple.com/macbook-air/specs.html) and [MacBook Pro models](http://www.apple.com/macbook-pro/specs-retina/). Your MacBook MUST be running OS X El Capitan. This is free upgrades from the App Store.
+Here are the current [Dell Inspiron 15 5000 models](http://www.dell.com/en-us/shop/productdetails/inspiron-15-5567-laptop) and [Dell XPS 15 models](http://www.dell.com/en-us/shop/productdetails/xps-15-9550-laptop). There is no requirement that you purchase a Dell laptop, but these are the recommended specs if you choose to purchase one from another manufacturer. Your laptop MUST be running Windows 10.
 
-Do not go with the new, skinny 12" Retina MacBooks. Their processor will be too sluggish in a year or two.
+Do not go with any of the Chromebook models.
 
 ### Operating System
 
-You'll need to install OS X El Capitan if your Mac didn't have it pre-installed or you haven't upgraded already.
+If you are purchasing a new laptop (recommended if possible), it should come with Windows 10 pre-installed.
 
-1.  Download the El Capitan upgrade from the Apple Store: [download here](https://itunes.apple.com/us/app/os-x-el-capitan/id1018109117?mt=12).
-2.  You'll need to sign in to your Mac's 'App Store' with your [Apple ID](https://appleid.apple.com/).
-3.  Double-click "Install OS X El Capitan" to begin installation.  
-*WARNING*: The OS X upgrade can take a bit of time to complete and will require a restart. Plan on doing this in the evening or over a lunch break.
+If you have an existing laptop you intend to use and it meets the hardware specifications, you may need to purchase a copy of Windows 10 and install it yourself. Refer to the Microsoft.com.
 
 ### Additional Software
 
-_There is no commercial software required for the class._ However, there are many open source software requirements.
+_There is no paid software required for the class._ However, there are a number of software products that need to be installed.
 
-As soon as possible after receiving your Mac, run through the following steps. If you've done a lot of your own configuration, some of these steps may have to change. If you run into **any problems**, send me an e-mail at: [{{site.instructor_email}}](mailto:{{ site.instructor_email }}) and I will try to help.
+As soon as possible after receiving your laptop, run through the following steps. If you've done a lot of your own configuration, some of these steps may have to change. If you run into **any problems**, send me an e-mail at: [{{site.instructor_email}}](mailto:{{ site.instructor_email }}) and I will try to help.
+
+#### Install Visual Studio 2015 Community Edition 
+
+You need to download and install [Visual Studio 2015 Community](https://www.visualstudio.com/vs/community/). It is the free version of the integrated development ennironment used for C# development.
+
+#### Install SQL Server 2016 Express & SQL Server Management Studio (SSMS)
+SQL Server is the database that will be used in the class. This is the free development version that will run right on your laptop. SSMS is the management tool that is used to work with SQL Server.
+
+You can download and install it here [SQL Server 2016 Express](https://www.microsoft.com/en-us/download/details.aspx?id=52679) and [SQL Server Management Studio](http://go.microsoft.com/fwlink/?linkid=832812)
 
 #### Install a code editor
 
 You will need a program specifically designed for software development. We typically call this an IDE (an Integrated Development Environment).
 
-Sublime is not necessarily the best editor, but it has great defaults. If you are already using an editor and are comfortable with it then you may continue to use it. However, there may be times in class when I suggest a shortcut or editor configuration option that may be different for you! Good alternatives include: Atom, Textmate, and MacVim.
+Sublime is not necessarily the best editor, but it has great defaults. If you are already using an editor and are comfortable with it then you may continue to use it. However, there may be times in class when I suggest a shortcut or editor configuration option that may be different for you! 
 
-To install Atom:
-
-  1. Download Sublime from [the Sublime website](https://www.sublimetext.com).
-  1. Install it. If you're not familiar with Mac installations, [read more here](http://www.howtogeek.com/177619/how-to-install-applications-on-a-mac-everything-you-need-to-know/).
+This link will download the install pacckage and start the installation process [Sublime Text 3](https://download.sublimetext.com/Sublime%20Text%20Build%203126%20x64%20Setup.exe)
 
 #### Install Google Chrome
 
@@ -49,38 +52,13 @@ While the end users of our applications will use a variety of browsers, I have f
   1. Install and run it.
   1. Optionally, you may want to set Chrome as your [default browser](https://support.google.com/chrome/answer/95417?hl=en).
 
-#### Install Homebrew
+#### Install Git
 
-Homebrew will make it easier for us to install other applications we will need during class.
+Git is a source control management (SCM) system which will be explained more in the class. Download it here. [Git for Windows 64-bit](https://github.com/git-for-windows/git/releases/download/v2.10.2.windows.1/Git-2.10.2-64-bit.exe). It has a command line interface (CLI). It will put an icon on your desktop to get to the command line interface. After it is installed, run the folloing commands:
 
-  1. Open up the iTerm application
-  1. Run:  
-  `/usr/bin/ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"`
-
-#### Install Node.js
-
-Node.js is a technology we will use many times in class. You will learn more about it later.
-
-  1. Open up the iTerm application
-  1. Run:  
-  `brew install nodejs`
-  1. Run:  
-  `node -v` to see that you have Node.js installed (you should see a version number print out)
-
-#### Install git
-
-  1. Open up the iTerm application
-  1. Run:  
-  `brew install git`
   1. Run:  
   `git --version` to see that you have it installed (you should see a version number print out)
   1. Run:  
   `git config --global push.default simple`
   1. Run:  
   `git config --global credential.helper osxkeychain`
-
-You may want to [add the following applications to your Dock](https://support.apple.com/en-us/HT201730) since we will use them regularly.
-
-  * Sublime
-  * Chrome
-  * iTerm
