@@ -60,5 +60,3 @@ Git is a source control management (SCM) system which will be explained more in 
   `git --version` to see that you have it installed (you should see a version number print out)
   1. Run:  
   `git config --global push.default simple`
-  //1. Run:  
-  //`git config --global credential.helper osxkeychain`
